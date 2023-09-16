@@ -1,0 +1,38 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  skinview3d:
+    specifier: ^3.0.0
+    version: 3.0.0
+
+packages:
+
+  /@types/three@0.142.0:
+    resolution: {integrity: sha512-YNVnlqthfgqsxKuSNbT/G2r+ha/6x+aJm7kvjT+sxa4jUROw/KOPm5xzGj33sk1+Librg6NwH/wJ6LCDX33UZg==}
+    dependencies:
+      '@types/webxr': 0.5.4
+    dev: false
+
+  /@types/webxr@0.5.4:
+    resolution: {integrity: sha512-41gfGLTtqXZhcmoDlLDHqMJDuwAMwhHwXf9Q2job3TUBsvkNfPNI/3IWVEtLH4tyY1ElWtfwIaoNeqeEX238/Q==}
+    dev: false
+
+  /skinview-utils@0.7.1:
+    resolution: {integrity: sha512-4eLrMqR526ehlZbsd8SuZ/CHpS9GiH0xUMoV+PYlJVi95ZFz5HJu7Spt5XYa72DRS7wgt5qquvHZf0XZJgmu9Q==}
+    dev: false
+
+  /skinview3d@3.0.0:
+    resolution: {integrity: sha512-wQJDDhNfHmRuOhORBnuKosVUiSjRKVn/jibl8zqSdHsQQqlihEkUdwb4He1ts4pvkl/7G5mna2vpgdxxhRUVfg==}
+    dependencies:
+      '@types/three': 0.142.0
+      skinview-utils: 0.7.1
+      three: 0.142.0
+    dev: false
+
+  /three@0.142.0:
+    resolution: {integrity: sha512-ESjPO+3geFr+ZUfVMpMnF/eVU2uJPOh0e2ZpMFqjNca1wApS9lJb7E4MjwGIczgt9iuKd8PEm6Pfgp2bJ92Xtg==}
+    dev: false
